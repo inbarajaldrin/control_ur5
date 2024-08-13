@@ -78,7 +78,7 @@ Before starting a new simulation run (especially after completing one), it's ess
 3. **Cleanup ROS Parameters**:
 
     ```bash
-    rosparam delete -y /
+    rosparam delete /
     ```
 
 4. **Launch Gazebo Simulation Again**:
