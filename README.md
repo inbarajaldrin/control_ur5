@@ -54,7 +54,7 @@ This command initializes the Gazebo environment with the UR5 robot model, allowi
 3. **Run the Control Script**: In a new terminal, execute the control script:
 
     ```bash
-    rosrun control_ur5 gazebo_ur5_hitUAV.py
+    rosrun control_ur5 ur5_hitUAV.py
     ```
 
    Upon execution, the UR5 robot in the Gazebo simulation should move through the specified Cartesian coordinates.
@@ -90,7 +90,7 @@ Before starting a new simulation run (especially after completing one), it's ess
 5. **Run the Control Script**:
 
     ```bash
-    rosrun control_ur5 gazebo_ur5_hitUAV.py
+    rosrun control_ur5 ur5_hitUAV.py
     ```
 
 **Note**: Always ensure that the simulation environment is clean before starting a new run to prevent any residual effects from previous simulations.
